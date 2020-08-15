@@ -41,6 +41,8 @@ While creating this application I have used many different technologies listed b
 * Heroku : to access the application off of the internet
 * Express : to create server connection, routes and queries
 * Express-Handlebars : to allow html to be created based of database queries
+* Bootstrap : to structure the CSS of the page
+* Font Awesome : to create the burger icon
 
 <a id="chall"></a>
 
@@ -106,6 +108,8 @@ As mentioned in [Technologies Used](#tech) the following assets were used:
 * [Heroku](https://heroku.com/)
 * [Express](https://www.npmjs.com/package/express)
 * [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
+* [Bootstrap](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
 Furthermore the requirements set for this application were supplied by Trilogy Education Services.
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
