@@ -5,9 +5,15 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      <button class="change-devoured" data-id="{{id}}" data-newdevour="{{devoured}}">
-		{{#if devoured}}COok again?{{else}}Devour me!{{/if}}
+      <li>
+	{{name}}
+
+	<button class="change-devoured" data-id="{{id}}" value="1">
+		Devour me!
 	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li>
     {{/unless}}
   {{/each}}
 </ul>
@@ -19,11 +25,7 @@
     {{#if devoured}}
       <li>
 	{{name}}
-
-	<button class="change-devoured" data-id="{{id}}" data-newdevour="{{devoured}}">
-		{{#if devoured}}COok again?{{else}}Devour me!{{/if}}
-	</button>
-
+	<button class="change-devoured" data-id="{{id}}" value="{{devoured}}">COok again?</button>
 	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
 </li>
 
@@ -41,8 +43,8 @@
 
   <div class="form-group">
     <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1">Devoured<br>
-    <input type="radio" name="devoured" value="0"> Ready to Eat
+    <input type="radio" name="devouredButton" value="1" checked>Devoured<br>
+    <input type="radio" name="devouredButton" value="0"> Ready to Eat
   </div>
 
   <button type="submit">Add Burger</button>
