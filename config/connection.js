@@ -2,11 +2,11 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "localhost",
+  host: "vvfv20el7sb2enn3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   port: 3306,
-  user: "root",
-  password: "anj",
-  database: "burgerDB"
+  user: "	fva4oxd13vjkmq49",
+  password: "miwbb2piep6tfjio",
+  database: "kbk4fne2j55zwfu9"
 });
 
 // Make connection.
