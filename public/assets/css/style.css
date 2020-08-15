@@ -1,0 +1,30 @@
+i{
+    font-size: 150px;
+    text-align: center;
+    color: brown;
+}
+
+h1,h4{
+    text-align: center;
+    color: coral;
+}
+
+li{
+    text-align: center;
+    background-color: bisque;
+    border:  3px solid coral;
+    list-style-type: none;
+    margin: 0px 0px 10px 0px;
+    border-radius: 12px;
+}
+button{
+    display: inline;
+    background-color: white;
+    border:  10px solid coral;
+    border-radius: 12px;
+    font-weight: 700;
+}
+form{
+    text-align: center;
+}
+
